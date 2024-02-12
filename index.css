@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    border:0;
+    box-sizing:border-box;
+}
+body{
+    background: url('https://img.freepik.com/free-photo/grassy-field-with-plants-with-mountains-sun-shining-through-clouds-background_181624-2788.jpg?size=626&ext=jpg&ga=GA1.1.1880744966.1707674195&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
+    color: black;
+    font-weight: bold;
+}
+.container{
+    background:rgba(255, 255, 255, 0.3);
+    width:25rem;
+    height:30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+h2{
+    margin-top:3rem;
+}
+.weatherInfo,.userInfo{
+    margin-top: 1rem;
+}
+.imageContent{
+    margin-top:0.5em;
+}
+.userInfo{
+    background-color: white;
+    border-radius: 10px;
+    width: 60%;
+}
+#cityName{
+    border-radius: 10px;
+    line-height: 1.6rem;
+    padding:2px;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+#btn{
+    padding:0.2rem;
+    cursor: pointer;
+    background-color:white;
+    border-radius: 10px;
+    float: right;
+}
+.weatherInfo{
+    text-align: center;
+}
+.info{
+    padding:1.5rem;
+    text-align: center;   
+}
+.label{
+    float: left;
+    margin-right:1.5rem;
+    margin-top: 0.5rem;
+}
+.value{
+    float: right;
+    margin-top: 0.5rem;
+}

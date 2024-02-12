@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Weather</h2>
+        <div class="userInfo">
+        <input type="text" id="cityName">
+        <button id="btn">
+            <i class="fa fa-search" style="font-size:18px;"></i>
+        </button>
+        </div>
+        <div class="imageContent">
+            <img src="./assets/sun.png" alt="sunnyImg">
+        </div>
+        <div class="weatherInfo">
+            <div id="cityInfo">
+                <span id="desc">Clear</span>
+            </div>
+            <div class="info">
+                <div>
+                    <label for=""class="label">Temp</label>
+                    <span class="value"> <span  id="temp">50</span><span>°</span></span>
+                </div>
+                <div>
+                    <label for=""class="label">Min-Temp</label>
+                    <span class="value"><span id="mintemp">20.1</span><span>°</span></span>
+                </div>
+                <div>
+                    <label for=""class="label">Max-Temp</label>
+                    <span class="value"><span id="maxtemp">72.5</span><span>°</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
