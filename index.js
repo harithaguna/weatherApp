@@ -1,5 +1,3 @@
-
-
 let btn=document.getElementById("btn");
 
 btn.onclick=()=>getInput();
